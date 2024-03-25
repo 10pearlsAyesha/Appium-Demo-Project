@@ -22,7 +22,6 @@ public class ConnectionString {
         driver = new AndroidDriver(new URL("http://localhost:4723"), capabilities);
         System.out.println("Opening Appium Server");
     }
-
     @Test
     public void sampleTest(){
         System.out.print("This is a 1st Sample Test");
